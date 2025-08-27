@@ -20,24 +20,15 @@ container.style.padding = "20px";
 container.style.borderRadius = "8px";
 container.style.textAlign = "center";  
 
-//login-button styling
+//loginButton styling
 
-let loginButton = document.getElementById("loginHeader");
+let loginButton = document.getElementById("loginButton");
 loginButton.style.background = "gray";
-loginButton.style.cursor = "cursor" ;
+loginButton.style.cursor = "pointer" ;
 loginButton.style.padding = "10px 20px";
 loginButton.style.border = "2px solid black";
 loginButton.style.borderRadius = "5px";
 
 
-loginButton.onmouseout = function (hovered) {
-    loginButton.style.color = "gray" ;
-};
-loginButton.onmouseout = function (notHovered) {
-    loginButton.style.color = "black"
-};
 
-let container = document.getElementById("container");
-container.style.borderBlock = "3px solid gray";
-// container.body.style.width = "500px"
 
